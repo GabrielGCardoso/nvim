@@ -25,12 +25,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   if exists('g:vscode')
     " Easy motion for VSCode
-    Plug 'asvetliakov/vim-easymotion'
+    ""Plug 'asvetliakov/vim-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
 
     " Sneak
-    Plug 'justinmk/vim-sneak'
+    ""Plug 'justinmk/vim-sneak'
     " Surround
     Plug 'tpope/vim-surround'
     " Files
