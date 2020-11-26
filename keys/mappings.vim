@@ -8,7 +8,7 @@ imap <C-l> <C-w>l
 let mapleader=" "
 " let localleader=" "
 nnoremap <Space> <Nop>
-
+nnoremap <Space>sv :source ~/.config/nvim/init.vim<cr>
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
